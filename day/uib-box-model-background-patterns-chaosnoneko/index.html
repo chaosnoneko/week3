@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+      body {
+        margin: 0;
+        background-color: antiquewhite;
+        min-height: 100vh;
+      }
+
+      .content-container {
+        height: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        color: darkred;
+      }
+
+      blockquote {
+        padding: 60px 0;
+      }
+
+      blockquote footer {
+        color: black;
+        text-align: right;
+      }
+
+      .pattern {
+        background-image: url("./images/pattern.jpg");
+        background-repeat: repeat-x;
+        background-size: 120%;
+        height: 20vh;
+        background-position: center bottom;
+      }
+
+      .pattern-top {
+        background-position: center top;
+      }
+
+      .pattern-small {
+        background-size: 20%;
+        height: 10vh;
+      }
+    </style>
+    <title>Background</title>
+  </head>
+
+  <body>
+    <section class="pattern pattern-small"></section>
+    <section class="pattern pattern-top"></section>
+    <main class="content-container">
+      <blockquote cite="https://www.huxley.net/bnw/four.html">
+        <h1>
+          “Any organisation that designs a system will produce a design whose
+          structure is a copy of the organisation's communication structure”
+        </h1>
+        <footer>― Robert C. Martin, <cite>Clean Architecture</cite></footer>
+      </blockquote>
+    </main>
+    <section class="pattern"></section>
+    <section class="pattern pattern-small pattern-top"></section>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.halloword {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 0 auto; 
+    position: relative;
+    right: 5px;
+    top: 7px;
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
+.box2 {
+    background-color: rgb(0, 255, 85);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.box3 {
+    background-color: rgb(0, 183, 255);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: -1;
+}

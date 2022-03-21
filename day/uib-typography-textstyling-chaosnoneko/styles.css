@@ -1,0 +1,35 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 40px;
+}
+
+blockquote {
+    margin: 0 0 0 30px;
+    text-decoration: italic;
+    letter-spacing: 5px;
+}
+html {
+    font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+  }
+h1 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+em {
+    text-transform: capitalize;
+}
+a {
+    text-decoration: none;
+    color: rgb(4, 206, 4);
+}
+strong {
+    text-transform: uppercase;
+}
